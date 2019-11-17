@@ -1,10 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
-/* Reset Code */
 html {
   scroll-behavior: smooth;
 }
@@ -16,7 +9,7 @@ body {
 }
 
 .wrap {
-    background: #3369e7;
+    background: #7510F7;
 
 }
 body a {
@@ -400,6 +393,7 @@ li > a:only-child:after { content: ''; }
 	background-color: #ffffff;
     color: #636363;
     border-radius: 0.25em;
+    margin-top: 5vh;
 }
 .advantage_left h4 {
     font-size: 22px;
@@ -468,7 +462,7 @@ a.banner-button2 {
 }
 
 .banner {
-    background: url(../images/banner.jpg) no-repeat center;
+    background-color: black;
     background-size: cover;
     position: relative;
 }
@@ -487,9 +481,9 @@ a.banner-button2 {
     padding: 4em 0;
 }
 h2.heading-banner {
-    color: #fff;
+    color: rgba(24, 23, 23, 0.849);
     font-size: 50px;
-    font-weight: 100;
+    font-weight: 600;
 }
 h2.heading-banner span {
     display: block;
@@ -510,7 +504,7 @@ h2.heading span,h3.heading span {
     width: 50px;
     height: 2px;
     background: #333;
-    display: inline-block;
+    
 }
 
 /*-- services --*/
@@ -518,7 +512,7 @@ h2.heading span,h3.heading span {
     background: #f6f6f6;
 }
 .service-in .card {
-    padding: 1.5em .5em;
+    padding: 1.5em .1em;
     border: none;
     transition: none;
     background: #fff;
@@ -526,12 +520,26 @@ h2.heading span,h3.heading span {
 }
 .service-in .card h5.card-title {
     font-size: 20px;
-    letter-spacing: 1px;
+    font-weight: 600;
+   
 }
-.service-in .card span.fa {
-    font-size: 2em;
-    color: #3369e7;
+.service-in .card .fa {
+    font-size: 2.5em;
+    color: #7510F7;
 }
+
+.has-text {
+    color: #7510F7 !important;
+    font-weight: 600 !important;
+    margin-top: 50px;
+    margin-bottom: 8px;
+}
+
+.is-skill-icon {
+    height: 38px;
+    width: auto;
+}
+
 .service-in p.card-text {
     font-size: 15px;
 }
@@ -715,26 +723,26 @@ form.contact-form {
 .contact-form .form-control,
 .contact-form textarea {
     padding: 1.1em 1.1em;
-    color: #fff;
+    color: #000000;
     border: none;
     border-radius: 0px;
     outline: none;
     font-size: 15px;
     letter-spacing: 1px;
-    background: #1b4ab6;
+    background: #fff;
 	font-weight: 200;
 }
 .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #eee;
+  color: #000;
 }
 .form-control::-moz-placeholder { /* Firefox 19+ */
-  color: #eee;
+  color: #000;
 }
 .form-control::-ms-input-placeholder { /* IE 10+ */
-  color: #eee;
+  color: #000;
 }
 .form-control::-moz-placeholder { /* Firefox 18- */
-  color: #eee;
+  color: #000;
 }
 .contact-form textarea {
     min-height: 10.3em;
@@ -754,7 +762,7 @@ form.contact-form {
     font-size: 15px;
     margin-top: 5px;
     letter-spacing: 2px;
-    color: #3369e7;
+    color: #7510F7;
     border-radius: 0px;
     text-transform: capitalize;
     transition: 0.5s all;
