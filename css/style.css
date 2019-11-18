@@ -528,6 +528,11 @@ h2.heading span,h3.heading span {
     color: #7510F7;
 }
 
+.color {
+    color: #7510F7;
+    font-weight: 600;
+}
+
 .has-text {
     color: #7510F7 !important;
     font-weight: 600 !important;
